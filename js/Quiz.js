@@ -32,16 +32,16 @@ class Quiz {
     question.hide();
     background("Yellow");
     fill(0);
-    textSize(30);
-    text("Result of the Quiz",340, 50);
-    text("----------------------------",320, 65);
+    textSize(26);
+    text("Resultado del Cuestionario",340, 50);
+    text("----------------------------------------",320, 65);
     Contestant.getPlayerInfo();
     if(allContestants !== undefined){
       debugger;
       var display_Answers = 230;
       fill("Blue");
       textSize(20);
-      text("*NOTE: Contestant who answered correct are highlighted in green color!",130,230);
+      text("*NOTA: ¡El concursante que respondió correctamente, está resaltado en color verde!",130,230);
 
       for(var plr in allContestants){
         debugger;
